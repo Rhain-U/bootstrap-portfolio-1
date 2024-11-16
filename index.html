@@ -188,9 +188,32 @@
 
   <div class="col-12 col-md-10 col-lg-8">
 <!--Add form here-->
+<form class="row g-3">
+    <div class="col-12">
+      <label for="fullname" class="form-label">Full name</label>
+      <input type="text" class="form-control" id="full-name" required>
+    </div>
+    <div class="col-12">
+      <label for="phonenumber" class="form-label">Phone number</label>
+      <input type="number" class="form-control" id="phonenumber" required>
+    </div>
 
+    <div class="col-12">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+
+      <div class="col-12"></div>
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3"></textarea>
+      </div>
+   
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Send</button>
+    </div>
+  </form>
   </div>
-</div>
+</div>  
 
 
 </footer>
